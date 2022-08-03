@@ -25,7 +25,9 @@ function App() {
         <div className="App">
 
             <Button nickName={'Clean'} callback={getRequestHandler}/>
+
             <p></p>
+
             <ul>
             {get.map((el:GetType) =>{
                 return(<li>
