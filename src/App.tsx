@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Button} from './Components/Button';
+import { DopHomework1 } from './Components/DOP_homework1';
 
 
 type GetType = {
@@ -35,6 +36,10 @@ function App() {
                 </li>)
             })}
             </ul>
+
+
+            <DopHomework1 />
+
 
 
 
